@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    bord: 1px solid red;
+}
+
+.fr-height {
+    background-image: linear-gradient(360deg, rgba(124, 112, 112, 0.6), rgb(124, 112, 112)), url(../img/x3.jpg.pagespeed.ic.iTwpsd0-5f.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    object-fit: cover;
+    border-radius: 30%;
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-nav a:hover {
+    background: rgba(199, 178, 178, 0.5);
+    border-radius: 4px;
+}
+
+.btn-secondary {
+    background: rgb(199, 178, 178) !important;
+}
+
+.bg-ligh {
+    background: rgba(199, 178, 178, 0.2) !important;
+}
+
+.bg-grey {
+    background: rgb(199, 178, 178);
+}
+
+.text-grey {
+    color: rgb(199, 178, 178);
+}
+
+.for-top {
+    bottom: 9%;
+}
+
+.fr-top {
+    bottom: -4.0%;
+}
+
+.top-one {
+    bottom: 4%;
+}
+
+.top-two {
+    bottom: -1.8%;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.img-one {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.fit-img {
+    height: 33vh;
+    object-fit: cover;
+}
+
+.cus-img {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+}
+
+.icon-hover img {
+    transition: all 0.4s ease-in;
+}
+
+.icon-hover img:hover {
+    transform: scale(1.15);
+}
+
+@media (max-width: 769px) {
+    .img-size {
+        height: 85vh;
+        object-fit: cover;
+    }
+
+    .navbar-nav .nav-link {
+        margin-left: 0 !important;
+    }
+
+    .navbar-nav a:hover {
+        padding: 5px;
+    }
+
+    .fr-top {
+        bottom: -4.5%;
+    }
+
+    .top-two {
+        bottom: -2.1%;
+    }
+}
+
+@media (max-width: 426px) {
+    .img-size {
+        height: 50vh;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
