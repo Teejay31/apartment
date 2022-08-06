@@ -12,6 +12,10 @@
     background-size: cover;
 }
 
+.bgk {
+    background: rgba(124, 112, 112, 0.7);
+}
+
 .logo {
     object-fit: cover;
     border-radius: 30%;
@@ -112,5 +116,51 @@
         height: 50vh;
         width: 100%;
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 414px) {
+    .fr-top {
+        bottom: -3%;
+    }
+
+    .for-top {
+        bottom: 6%;
+    }
+
+    .top-one {
+        bottom: 3%;
+    }
+    
+    .top-two {
+        bottom: -1.3%;
+    }
+}
+
+@media (max-width: 390px) {
+    .for-top {
+        bottom: 6.5%;
+    }
+
+    .fr-top {
+        bottom: -3%;
+    }
+}
+
+@media (max-width: 376px) {
+    .for-top {
+        bottom: 8%;
+    }
+
+    .fr-top {
+        bottom: -5%;
+    }
+
+    .top-one {
+        bottom: 5.5%;
+    }
+
+    .top-two {
+        bottom: -2%;
     }
 }
